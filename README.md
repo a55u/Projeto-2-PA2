@@ -1,8 +1,6 @@
-Markdown# 🎮 Jogo de Aventura — Otimização de Mochila Fracionária
-
-[cite_start]Este projeto foi desenvolvido como parte dos requisitos avaliativos da disciplina de **Projeto e Análise de Algoritmos II** na **Universidade Presbiteriana Mackenzie**. [cite_start]O objetivo principal é simular um jogo de aventura em formato textual, aplicando uma **estratégia gulosa** para maximizar o lucro de um personagem ao carregar itens em sua mochila ao longo de 4 fases[cite: 4, 12, 16].
-
-[cite_start]O programa utiliza o conceito do **Problema da Mochila Fracionária**, onde itens podem ser levados em pedaços proporcionais para preencher o espaço restante da mochila, exceto quando bloqueado pelas regras específicas de cada cenário[cite: 8, 13, 123].
+## 🎮Jogo de Aventura — Otimização de Mochila Fracionária
+Este projeto foi desenvolvido como parte dos requisitos avaliativos da disciplina de **Projeto e Análise de Algoritmos II** na **Universidade Presbiteriana Mackenzie**. O objetivo principal é simular um jogo de aventura em formato textual, aplicando uma **estratégia gulosa** para maximizar o lucro de um personagem ao carregar itens em sua mochila ao longo de 4 fases.
+O programa utiliza o conceito do **Problema da Mochila Fracionária**, onde itens podem ser levados em pedaços proporcionais para preencher o espaço restante da mochila, exceto quando bloqueado pelas regras específicas de cada cenário.
 
 ---
 
