@@ -1,5 +1,0 @@
-FASE: [Nome da Fase]
-CAPACIDADE: [Peso Máximo da Mochila]
-REGRA: [Nome_da_Regra]
-ITEM: [Nome do Item] [Peso] [Valor] [Tipo]
-ITEM: [Nome do Item] [Peso] [Valor] [Tipo]

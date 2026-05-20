@@ -1,3 +1,14 @@
+/*
+========================================
+NOME                            RA
+
+Aline Vidal                     10721348
+Beatriz Ferreira Vianna         10729512
+João Vitor Fernandes Messias    10723552
+Kauê Lima Rodrigues Meneses     10410594
+Rayana Pimentel Marques Lopes   10435370
+========================================
+*/
 #define MAX_NOME 50
 
 /*
