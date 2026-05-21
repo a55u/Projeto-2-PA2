@@ -12,7 +12,9 @@ Rayana Pimentel Marques Lopes   10435370
 
 #include <stdio.h>
 #include <string.h>
-#include "utils/utils_mochila.h"
+#include "utils_mochila.h"
+#include "regras.c"
+#include "mochila.c"
 
 void carregar_dados(FILE *fp_in, Fase jogo[], int *total_fases) {
     char linha[256];
@@ -41,9 +43,9 @@ void carregar_dados(FILE *fp_in, Fase jogo[], int *total_fases) {
             
             /* %[^,] lê strings compostas por espaços até encontrar a primeira vírgula */
             sscanf(linha, "ITEM: %[^,], %f,%f,%s", 
-                   jogo[f].itens[i].nome, 
-                   &jogo[f].itens[i].valor, 
+                   jogo[f].itens[i].nome,
                    &jogo[f].itens[i].peso, 
+                   &jogo[f].itens[i].valor,
                    jogo[f].itens[i].tipo);
             
             /* Ajustando referências locais para bater com a ordem original de valor/peso do seu código */

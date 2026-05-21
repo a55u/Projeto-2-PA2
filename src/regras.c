@@ -28,7 +28,7 @@ Regra especial: Apenas os três itens com maior valor/peso podem ser escolhidos.
 */
 
 #include <string.h>
-#include "utils/utils_mochila.h"
+#include "utils_mochila.h"
 
 void aplicar_regras(Fase *fase) {
     
